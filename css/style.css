@@ -1909,3 +1909,9 @@ a.dropdown-item.lastSignOut {
     color: #f71c7c;
     padding: 6px 0px !important;
 }
+.fixed {
+    top: 0;
+    position: fixed;
+    width: 20%;
+
+  }
