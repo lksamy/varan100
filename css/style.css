@@ -1915,3 +1915,75 @@ a.dropdown-item.lastSignOut {
     width: 20%;
 
   }
+  .radBTn {
+    padding: 5px 0px;
+}
+
+.rightimg .dropbtn {
+    color: white;
+    padding: 33px 0px;
+    font-size: 16px;
+    border: none;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    width: 100%;
+}
+  
+  .rightimg .dropdown {
+    position: relative;
+    display: block;
+  }
+  
+  .rightimg .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 111px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+    top: 13px;
+    left: 57px;
+}
+  .rightimg .dropdown-content a {
+    color: black;
+    padding: 1px 9px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+  .rightimg .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn.img1{
+    background: url(../assets/Icon-material-move-to-inbox.png);
+}
+.dropbtn.img2{
+    background: url(../assets/Union-1.png);
+}
+.dropbtn.img3{
+    background: url(../assets/Union-2.png);
+}
+.dropbtn.img4{
+    background: url(../assets/Polygon-1.png);
+}
+
+/*hover*/
+
+.rightimg .dropdown:hover .dropbtn.img1{
+    background: url(../assets/Icon-material-move-to-inbox-1.png);
+}
+.rightimg .dropdown:hover .dropbtn.img2{
+    background: url(../assets/Union4.png);
+}
+.rightimg .dropdown:hover .dropbtn.img3{
+    background: url(../assets/Union5.png);
+}
+.rightimg .dropdown:hover .dropbtn.img4{
+    background: url(../assets/Polygon-20.png);
+}
+
+
+.rightimg .dropdown:hover{
+    background: linear-gradient(to right, #0A78C7,#F71C7C);
+}
