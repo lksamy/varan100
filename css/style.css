@@ -82,7 +82,7 @@ body{
     .p-all-img-count{height: 24px;width: 25px;display: flex;background: #f71c7c;border-radius: 50%;
     color: #fff;justify-content: center;align-items: center;position: absolute;top: -9px;right: -13px;font-size: 12px;}
     .p-all-img i{font-size: 20px;background: #00000069;padding: 12px;color: #fff;border-radius: 10px;}
-    .p-all-img{position: absolute;right: 20px;top: 20px;}
+    .p-all-img{position: absolute;right: 20px;top: 20px;    z-index: 2;}
     .p-l-img{position: relative;}
     .footer{background: transparent linear-gradient(93deg, #0A78C7 0%, #F71C7C 100%) 0% 0% no-repeat padding-box;box-shadow: 0px 3px 6px #00000014;}
     .footer img{    max-width: 200px;}
@@ -1934,15 +1934,15 @@ a.dropdown-item.lastSignOut {
     display: block;
   }
   
-  .rightimg .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 111px;
-    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
-    z-index: 1;
-    top: 13px;
-    left: 57px;
+  .rightimg .dropdown-content a {
+    color: black;
+    padding: 1px 9px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    box-shadow: 0px 0px 3px #00000029;
+    background: #fff;
+    border-radius: 10px;
 }
   .rightimg .dropdown-content a {
     color: black;
@@ -1955,13 +1955,13 @@ a.dropdown-item.lastSignOut {
     display: block;
 }
 
-.dropbtn.img1{
+.dropbtn.img1,.btn-light .img1{
     background: url(../assets/Icon-material-move-to-inbox.png);
 }
-.dropbtn.img2{
+.dropbtn.img2,.btn-light .img2{
     background: url(../assets/Union-1.png);
 }
-.dropbtn.img3{
+.dropbtn.img3,.btn-light .img3{
     background: url(../assets/Union-2.png);
 }
 .dropbtn.img4{
@@ -1970,19 +1970,39 @@ a.dropdown-item.lastSignOut {
 
 /*hover*/
 
-.rightimg .dropdown:hover .dropbtn.img1{
+.rightimg .dropdown:hover .dropbtn.img1,.btn-light:hover .img1{
     background: url(../assets/Icon-material-move-to-inbox-1.png);
 }
-.rightimg .dropdown:hover .dropbtn.img2{
+.rightimg .dropdown:hover .dropbtn.img2,.btn-light:hover .img2{
     background: url(../assets/Union4.png);
 }
-.rightimg .dropdown:hover .dropbtn.img3{
+.rightimg .dropdown:hover .dropbtn.img3,.btn-light:hover .img3{
     background: url(../assets/Union5.png);
 }
 .rightimg .dropdown:hover .dropbtn.img4{
     background: url(../assets/Polygon-20.png);
 }
-
+.nav a.btn-light{
+    padding: 8px 8px 8px 30px !important;
+    position: relative;
+}
+.nav a.btn-light:hover{
+    background: linear-gradient(to right, #0A78C7,#F71C7C);
+    color: #fff !important;
+}
+.nav a.btn-light:hover span{
+    color: #fff !important;
+}
+.nav a.btn-light span {
+    left: 8px;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    background-size: 16px !important;
+    background-repeat: no-repeat !important;
+    background-position: bottom !important;
+    position: absolute;
+}
 
 .rightimg .dropdown:hover{
     background: linear-gradient(to right, #0A78C7,#F71C7C);
@@ -2004,4 +2024,32 @@ a.dropdown-item.lastSignOut {
 .selectProp h4{
     font-size: 19px;
     margin-bottom: 10px;
+}
+
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 500px; 
+    height: 500px; 
+    padding: 10px; 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+div#slideshow img {
+    width: 100%;
+    border-radius: 6px;
+}
+#slideshow {
+    margin: 0;
+    position: relative;
+    width: 259px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
 }

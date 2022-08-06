@@ -1,3 +1,6 @@
+ 
+  
+  
   $(".toggle-password").click(function() {
     $(this).toggleClass("fa-eye fa-eye-slash");
     input = $(this).parent().find("input");
@@ -29,7 +32,11 @@
         $sidebar.css({ top: "0" });
       }
     });
+
+
+    
   });
   
   
+      
 

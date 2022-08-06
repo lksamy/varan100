@@ -91,8 +91,19 @@
   <div class="container">
      <div class="card pr-c">
   <div class="profile-box">
-    <div class="p-l-img" style="background: url('assets/profile.webp');background-size: cover;width: 250px;height: 250px">
+    <div class="p-l-img" style="width: 250px;height: 250px">
       <span class="p-all-img"><i class="fa-solid fa-image"></i><span class="p-all-img-count">8</span></span>
+      <div id="slideshow">
+        <div>
+          <img src="assets/profile.webp" alt="">
+        </div>
+        <div>
+          <img src="assets/sample2.png" alt="">
+        </div>
+        <div>
+          <img src="assets/profile.webp" alt="">
+        </div>
+      </div>
           </div>
     <div class="p-r-c">
       <div class="a-right-s"><a href="#" data-toggle="modal" data-target="#exampleModal" class="btn-light">View Bio Data</a><br><span>Last seen on 21-May-22</span></div>
@@ -131,10 +142,10 @@
   </div>
   <div class="pro-bar-right">
     <ul class="nav">
-      <li><a href="#" class="btn-light"><img src="assets/verify.png">Send Request</a></li>
-      <li><a href="#" class="btn-light"><img src="assets/verify.png">Send Request</a></li>
-      <li><a href="#" class="btn-light"><img src="assets/verify.png">Send Request</a></li>
-      <li><a href="#" class="btn-light"><img src="assets/verify.png">Send Request</a></li>
+      <li><a href="#" class="btn-light"><span class="img1"></span>Send Request</a></li>
+      <li><a href="#" class="btn-light"><span class="img2"></span>View Contact</a></li>
+      <li><a href="#" class="btn-light"><span class="img3"></span>Shortlist</a></li>
+      <li><a href="#" class="btn-light"><span class="img4"></span>More</a></li>
     </ul>
   </div>
   </div>
@@ -525,15 +536,26 @@
 
 
 
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/1.1.1/js/bootstrap-multiselect.min.js" integrity="sha512-fp+kGodOXYBIPyIXInWgdH2vTMiOfbLC9YqwEHslkUxc8JLI7eBL2UQ8/HbB5YehvynU3gA3klc84rAQcTQvXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/script.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/1.1.1/js/bootstrap-multiselect.min.js"></script>
 <script>
     $(document).ready(function() {
         $('#example-getting-started').multiselect();
+
+        $("#slideshow > div:gt(0)").hide();
+    setInterval(function() { 
+      $('#slideshow > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow');
+    },  3000);
     });
+    
 </script>
   </script>
   </body>
