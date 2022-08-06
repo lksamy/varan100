@@ -1987,3 +1987,21 @@ a.dropdown-item.lastSignOut {
 .rightimg .dropdown:hover{
     background: linear-gradient(to right, #0A78C7,#F71C7C);
 }
+.selectProp select {
+    border: 1px solid #3333;
+    padding: 2px 4px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.selectProp span button {
+    border: 1px solid #3333;
+    padding: 3px 6px;
+    font-size: 14px;
+    border-radius: 4px;
+    background: linear-gradient(to right, #0A78C7,#F71C7C);
+    color: #fff;
+}
+.selectProp h4{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
