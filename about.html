@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/1.1.1/css/bootstrap-multiselect.css" integrity="sha512-Lif7u83tKvHWTPxL0amT2QbJoyvma0s9ubOlHpcodxRxpZo4iIGFw/lDWbPwSjNlnas2PsTrVTTcOoaVfb4kwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/gallery.css">
   </head>
   <body>
 <section class="header">
@@ -93,17 +95,62 @@
   <div class="profile-box">
     <div class="p-l-img" style="width: 250px;height: 250px">
       <span class="p-all-img"><i class="fa-solid fa-image"></i><span class="p-all-img-count">8</span></span>
-      <div id="slideshow">
-        <div>
-          <img src="assets/profile.webp" alt="">
-        </div>
-        <div>
-          <img src="assets/sample2.png" alt="">
-        </div>
-        <div>
-          <img src="assets/profile.webp" alt="">
-        </div>
-      </div>
+      
+          
+          <button style="    background: transparent;border: none;padding: 0px;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            <img style="width: 100%;" src="assets/profile.webp" alt="">
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <div class="modal-body  gallery-container">
+                    <div class="tz-gallery">
+
+                      <div class="row">
+              
+                          <div class="col-md-4">
+                              <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg">
+                                  <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg" alt="Bridge">
+                              </a>
+                          </div>
+                          <div class="col-md-4">
+                              <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg">
+                                  <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg" alt="Park">
+                              </a>
+                          </div>
+                          <div class="col-md-4">
+                              <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg">
+                                  <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg" alt="Tunnel">
+                              </a>
+                          </div>
+                          <div class="col-md-4">
+                              <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg">
+                                  <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg" alt="Traffic">
+                              </a>
+                          </div>
+                          <div class="col-md-4">
+                              <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg">
+                                  <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg" alt="Coast">
+                              </a>
+                          </div> 
+                          <div class="col-md-4">
+                              <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg">
+                                  <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg" alt="Rails">
+                              </a>
+                          </div>
+              
+                      </div>
+              
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        
           </div>
     <div class="p-r-c">
       <div class="a-right-s"><a href="#" data-toggle="modal" data-target="#exampleModal" class="btn-light">View Bio Data</a><br><span>Last seen on 21-May-22</span></div>
@@ -541,6 +588,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/1.1.1/js/bootstrap-multiselect.min.js"></script>
+<script src="js/baguetteBox.min.js"></script>
 <script>
     $(document).ready(function() {
         $('#example-getting-started').multiselect();
@@ -554,6 +602,7 @@
         .end()
         .appendTo('#slideshow');
     },  3000);
+    baguetteBox.run('.tz-gallery');
     });
     
 </script>
