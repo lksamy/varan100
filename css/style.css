@@ -1009,14 +1009,20 @@ button.edit-btn img {
 .edit-btn {
     padding: 7px 15px;
     border: none;
-    background: #0a78c752;
+    background: #0a78c752 !important;
     border-radius: 5px;
     color: #0a78c7;
     font-weight: 700;
     font-size: 13px;
-    width: 100%;
+    width:auto;
     display: inline-block;
     text-decoration: none;
+}
+.p-details .edit-btn{
+    width: auto;
+}
+.p-details .edit-btn i {
+    margin-right: 5px;
 }
 .p-r-c h3 a {
     text-decoration: none;

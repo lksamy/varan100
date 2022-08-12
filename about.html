@@ -14,6 +14,8 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/1.1.1/css/bootstrap-multiselect.css"
     integrity="sha512-Lif7u83tKvHWTPxL0amT2QbJoyvma0s9ubOlHpcodxRxpZo4iIGFw/lDWbPwSjNlnas2PsTrVTTcOoaVfb4kwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
   <link rel="stylesheet" href="css/baguetteBox.min.css">
   <link rel="stylesheet" href="css/gallery.css">
 </head>
@@ -124,16 +126,16 @@
                     <div class="p-l-img" style="width: 250px;height: 250px">
                       <span class="p-all-img"><i class="fa-solid fa-image"></i><span
                           class="p-all-img-count">8</span></span>
-                      <button style="    background: transparent;border: none;padding: 0px;" type="button"
-                        class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+
+
+                      <button style="    background: transparent;border: none;padding: 0px;"  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img style="width: 100%;" src="assets/profile.webp" alt="">
                       </button>
                       <!-- Modal -->
-                      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                           <div class="modal-content">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                               <span aria-hidden="true">&times;</span>
                             </button>
                             <div class="modal-body  gallery-container">
@@ -603,8 +605,8 @@
 
             </section>
           </div>
-          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">2</div>
-          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">3</div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">page not fount</div>
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">page not fount</div>
         </div>
       </div>
 
@@ -630,59 +632,14 @@
       </div>
     </div>
   </section>
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Edit Basic Details</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <h4>Age Range</h4>
-
-          <select id="example-getting-started" multiple="multiple">
-            <option value="cheese">Cheese</option>
-            <option value="tomatoes">Tomatoes</option>
-            <option value="mozarella">Mozzarella</option>
-            <option value="mushrooms">Mushrooms</option>
-            <option value="pepperoni">Pepperoni</option>
-            <option value="onions">Onions</option>
-          </select>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
 
   <script src="js/jquery.min.js"></script>
-  <script src="js/script.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/baguetteBox.min.js"></script>
+  <script src="js/script.js"></script>
+  
   <script>
-    $(document).ready(function () {
-      $('#example-getting-started').multiselect();
-
-      $("#slideshow > div:gt(0)").hide();
-      setInterval(function () {
-        $('#slideshow > div:first')
-          .fadeOut(1000)
-          .next()
-          .fadeIn(1000)
-          .end()
-          .appendTo('#slideshow');
-      }, 3000);
-      baguetteBox.run('.tz-gallery');
-    });
-
-  </script>
+    baguetteBox.run('.tz-gallery');
   </script>
 </body>
 
