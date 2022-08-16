@@ -2130,3 +2130,6 @@ ul.roundDif {
     background: #F4F7FC;
     border-radius: 8px;
 }
+#myTab li a{
+    text-decoration: none;
+}
