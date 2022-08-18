@@ -2133,3 +2133,71 @@ ul.roundDif {
 #myTab li a{
     text-decoration: none;
 }
+.notificationPop{
+    list-style: none;
+}
+.notificationPop ul.dropdown-menu {
+    left: -370px;
+    top: 40px;
+    min-width: 30rem !important;
+}
+.notifyImg img {
+    width: 100%;
+    background: linear-gradient(to right, #0A78C7,#F71C7C);
+    padding: 3px;
+    border-radius: 67px;
+}
+.centerSec h3 {
+    font-size: 15px;
+    font-weight: 800;
+}
+.closeBtm ul {
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+.crossBtn{
+    color: #F71C7C;
+    border-color: #F71C7C;
+    background: transparent;
+}
+li.mb-3.brBtm {
+    border-bottom: 1px solid #3333;
+    padding-bottom: 20px;
+}
+button.tikBtn {
+    color: #fff; 
+    border-color: transparent;
+    background: linear-gradient(to right, #0A78C7,#F71C7C);
+}
+.closeBtm button {
+    padding: 0px;
+    line-height: initial;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+.closeBtm ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.notificationPop hr{
+    height: 2px !important;
+    background: linear-gradient(to right, #0A78C7,#F71C7C);
+    opacity: 1;
+}
+.notificationPop h2 {
+    padding: 5px 25px;
+    font-size: 19px;
+    margin: 0px;
+    font-weight: 700;
+}
+.centerSec p {
+    color: #676767;
+}
+.centerSec a {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 3px 15px;
+    border-radius: 20px;
+}
