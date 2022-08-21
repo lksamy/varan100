@@ -2201,3 +2201,16 @@ button.tikBtn {
     padding: 3px 15px;
     border-radius: 20px;
 }
+.profile-box .a-right-s a.btn-light:hover {
+    background: linear-gradient(to right, #0A78C7,#F71C7C);
+    color: #fff !important;
+}
+.btn-wob{
+    text-decoration: none;
+}
+p.blueLine a {
+    text-decoration: none;
+}
+.accordionTop .accordion-body {
+    padding: 15px;
+}
