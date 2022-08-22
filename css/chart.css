@@ -1,0 +1,70 @@
+:root
+{
+  --fill:#f31f7b;
+  --fill-gradient:linear-gradient(to right,rgba(34, 111, 189,1) 0%, rgba(243, 31, 123,1) 100%);
+  --percentage:50;
+}
+.pie-chart .pie-chart-description .label {
+	text-align: center;
+	 font-size: 1.5em;
+	 font-weight: bold;
+}
+ .pie-chart .pie-chart-description .subtitle {
+	 margin-bottom: 0.5em;
+	 font-weight: 400;
+	 color: gray;
+	 text-align: center;
+}
+ .pie-chart .pie-chart-container {
+	 position: relative;
+}
+ .pie-chart .pie-chart-container .pie-percentage {
+	 position: absolute;
+	 transform: translateX(-50%);
+	 left: 50%;
+	 bottom: -1px;
+	 z-index: 2;
+	 margin: 0;
+	 font-size: 3em;
+	 color: var(--fill);
+}
+ .pie-chart .pie-chart-container .pie {
+	 margin: 0 auto;
+	 position: relative;
+	 width: 300px;
+	 height: 150px;
+	 border-radius: 200px 200px 0 0;
+	 overflow: hidden;
+}
+ .pie-chart .pie-chart-container .pie::after {
+	 transform: rotate(calc(1deg * ( -180 / (100/(100 - var(--percentage))))));
+	 background: var(--fill-gradient);
+	 transform-origin: center bottom;
+}
+ .pie-chart .pie-chart-container .pie::before {
+	 border: 40px solid grey;
+}
+ .pie-chart .pie-chart-container .pie .overlay {
+	 top: 40px;
+	/* match border width */
+	 left: 40px;
+	/* match border width */
+	 width: calc(100% - 80px);
+	/* match border width times 2 */
+	 height: calc(200% - 80px);
+	/* match border width times 2 */
+	 border-radius: 100%;
+	 background: white;
+	 z-index: 1;
+	/* move it on top of the pseudo elements */
+}
+ .pie-chart .pie-chart-container .pie *, .pie-chart .pie-chart-container .pie::before, .pie-chart .pie-chart-container .pie::after {
+	 content:'';
+	 position: absolute;
+	 left: 0;
+	 top: 0;
+	 height: 100%;
+	 width: 100%;
+	 border-radius: inherit;
+	 box-sizing: border-box;
+}

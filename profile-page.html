@@ -11,7 +11,7 @@
         rel="stylesheet">
         <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/ui-lightness/jquery-ui.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+<link rel="stylesheet" href="css/chart.css">
 </head>
 
 <body>
@@ -173,6 +173,30 @@
                           <span><button class="edit-btn"><span><i class="fa-regular fa-eye"></i></span>View Profile</button></span>
                       </p>
                   </div>
+              </div>
+              <div class="col-md-3">
+                <div class="pie-chart">
+
+                  <!-- Chart 📊 -->
+                  <div class="pie-chart-container"
+                       style="--percentage: 30;  --fill:#f31f7b">
+                      <div class="pie">
+                          <span class="overlay"></span>
+                      </div>
+      
+                      <!-- Write js script for dynamic content number -->
+                      <h1 class="pie-percentage">
+                          30%
+                      </h1>
+                  </div>
+      
+                  <!-- Description 📄 -->
+                  <div class="pie-chart-description">
+                      <h3 class="label">Profile Completion</h3>
+                      <p class="subtitle">Last Edited on 31st March 2019</p>
+                      <p class="subtitle">Profile View 17</p>
+                  </div>
+              </div>
               </div>
           </div>
           </div>
