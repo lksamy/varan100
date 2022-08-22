@@ -1815,7 +1815,26 @@ color: #fff;
 .select2-container{
     width: 100% !important;
 }
-
+ul.submitSec {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+ul.submitSec li{
+    display: inline-block;
+}
+ul.submitSec button:first-child {
+    border: 1px solid #3333;
+    padding: 3px 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+button.bgGrad {
+    background: linear-gradient(to right, #0A78C7,#F71C7C) !important;
+    color: #fff;
+}
 
 
 
