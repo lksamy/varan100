@@ -14,6 +14,7 @@
         rel="stylesheet">
         <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/ui-lightness/jquery-ui.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">
 </head>
 
 <body>
@@ -114,7 +115,99 @@
                                     <h4>Basic Details</h4>
                                 </div>
                                 <div class="col-md-5 text-right">
-                                    <button class="edit-btn"><span><img src="assets/pencil.png" alt=""></span>Edit</button>
+                                    <button type="button" class="edit-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><span><img src="assets/pencil.png" alt=""></span>Edit</button>
+                                    <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Edit Basic Details</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="logVaran">
+                                                        <form action="" method="get">
+                                                          <div class="row">
+                                                            <label for="">Age Range</label>
+                                                            <div class="col-md-6">
+                                                              <div class="form-control">
+                                                                <div class="select_box">
+                                                                  <select name="month">
+                                                                    <option value="01">Tamil</option>
+                                                                    <option value="02">English</option>
+                                                                </select>
+                                                            </div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="col-md-6">
+                                                            <div class="form-control">
+                                                              <div class="select_box">
+                                                                <select name="month">
+                                                                  <option value="01">Tamil</option>
+                                                                  <option value="02">English</option>
+                                                              </select>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          <label for="">Height Range</label>
+                                                          <div class="col-md-6">
+                                                            <div class="form-control">
+                                                              
+                                                              <div class="select_box">
+                                                                <select name="month">
+                                                                  <option value="01">Tamil</option>
+                                                                  <option value="02">English</option>
+                                                              </select>
+                                                          </div>
+                                                            </div>
+                                                            
+                                                          
+                                                          </div>
+                                                          <div class="col-md-6">
+                                                            <div class="form-control">
+                                                              <div class="select_box">
+                                                                <select name="month">
+                                                                  <option value="01">Tamil</option>
+                                                                  <option value="02">English</option>
+                                                              </select>
+                                                          </div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="col-md-12">
+                                                            <label for="Marital Status">Marital Status</label>
+                                                            <select class="js-select2-multi" multiple="multiple">
+                                                                <option value="A">Select A</option>
+                                                                <option value="B">Select B</option>
+                                                                <option value="C">Select C</option>
+                                                                <option value="D">Select D</option>
+                                                              </select>
+                                                          </div>
+                                                          <div class="col-md-12">
+                                                            <label for="Marital Status">Have Children</label>
+                                                            <select class="js-select2-multi" multiple="multiple">
+                                                                <option value="A">Select A</option>
+                                                                <option value="B">Select B</option>
+                                                                <option value="C">Select C</option>
+                                                                <option value="D">Select D</option>
+                                                              </select>
+                                                          </div>
+                                                          <div class="col-md-12">
+                                                            <label for="Marital Status">State/City</label>
+                                                            <select class="js-select2-multi" multiple="multiple">
+                                                                <option value="A">Select A</option>
+                                                                <option value="B">Select B</option>
+                                                                <option value="C">Select C</option>
+                                                                <option value="D">Select D</option>
+                                                              </select>
+                                                          </div>
+                                                        </div>
+                                                        </form>
+                                                      </div>
+                                                </div>
+                                               
+                                                </div>
+                                            </div>
+                                            </div>
                                 </div>
                             </div>
                             <div class="bioIn">
@@ -213,8 +306,10 @@
       </section>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>
+
 </body>
 
 </html>
