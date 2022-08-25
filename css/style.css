@@ -268,12 +268,20 @@ p.pinkText {
     color: #000;
     font-weight: 600;
 }
-.bg-pink button.linearClr,.bg-blue button.linearClr {
+.bg-pink .linearClr,.bg-blue .linearClr {
     border: none;
     padding: 8px 25px;
     border-radius: 6px;
     color: #fff;
     margin-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+.mainDetails.fullColor .downSec {
+    background: #F71C7C !important;
+}
+.mainDetails.fullColor .downSec li {
+    color: #fff !important;
 }
 .bg-blue img {
     position: absolute;
@@ -339,7 +347,14 @@ p.pinkText {
     background-size: 19px;
     padding-left: 25px;
 }
-.downSec button {
+.fullColor .downSec a {
+    background-color: #fff;
+}
+.downSec a {
+    background-color: #0A78C71A;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
     border: none;
     font-size: 14px;
     padding: 12px 24px;
