@@ -90,12 +90,17 @@ body{
     .p-all-img{position: absolute;right: 20px;top: 20px;    z-index: 2;}
     .p-l-img{position: relative;}
     .footer{background: transparent linear-gradient(93deg, #0A78C7 0%, #F71C7C 100%) 0% 0% no-repeat padding-box;box-shadow: 0px 3px 6px #00000014;}
-    .footer img{    max-width: 200px;}
+    .footer img{    max-width: 150px;}
     .footer{padding:15px 0px;}
     .footer a{color: #fff}
     .footer i{background: transparent linear-gradient(180deg, #0A78C7 0%, #F71C7C 100%) 0% 0% no-repeat padding-box;-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
     .footer .social a{    background: #fff;height: 35px;padding: 0;width: 35px;font-size: 16px; display: flex;border-radius: 5px;align-items: center;justify-content: center;margin: 6px;}
-   
+    .Leftfooter a{
+        text-decoration: none;
+    }
+    .Leftfooter a:hover{
+        color: #fff;
+    }
 button.loginGrad {
     color: #fff;
     font-size: 17px;
@@ -490,6 +495,7 @@ p.pinkText {
     transition: transform .2s;
 }
 .grad{
+    border-radius: 25px;
     margin-bottom: 10px;
     position: relative;
     overflow: hidden;
@@ -594,6 +600,13 @@ p.pinkText {
     background: #F71C7C0D;
     padding-bottom: 10px;
 }
+.topUl + ul li a{
+    color: #333;
+    text-decoration: none;
+}
+.topUl + ul li a:hover {
+    color: #ef28a8;
+}
 .topUl + ul li {
     display: inline-block;
     padding: 4px 10px 5px 21px;
@@ -642,7 +655,7 @@ p.pinkText {
     text-align: center;
 }
 .mobImg img {
-    width: 74%;
+    width: 40%;
 }
 
 
