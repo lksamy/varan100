@@ -101,15 +101,79 @@ body{
     .Leftfooter a:hover{
         color: #fff;
     }
-button.loginGrad {
-    color: #fff;
-    font-size: 17px;
-    padding: 12px 50px;
-    border: none;
-    border-radius: 6px;
-    margin-left: auto;
-    display: block;
-}
+    .loginGrad {
+        color: #fff;
+        font-size: 17px;
+        padding: 12px 50px;
+        border: none;
+        border-radius: 6px;
+        margin-left: auto;
+        display: inline-block;
+        float: right;
+        text-decoration: none;
+    }
+    .sidebarMatch{
+        overflow: hidden;
+    }
+    .sidebarMatch .loginGrad {
+        color: #fff;
+        font-size: 17px;
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        margin-left: auto;
+        display: inline-block;
+        float: left;
+        text-decoration: none;
+    }
+    .cardBox .fade{
+        display: none;
+    }
+    .cardBox .fade.show{
+        display: block;
+    }
+    button.bell-btn {
+        background: #DFEDF8 !important;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .imgCenter{
+        text-align: center;
+        background: #f7f7f7;
+    }
+    button.bell-btn span img {
+        width: 14px;
+        margin-right: 0px;
+        margin-top: -4px;
+    }
+    select.form-control.inline-block {
+        width: auto;
+        height: auto;
+        font-size: 17px;
+        padding: 12px 25px;
+        border-radius: 6px;
+        margin-left: auto;
+        display: inline-block;
+        text-decoration: none;
+        border: #de2584;
+    }
+    .termsCondtion h3 {
+        font-size: 23px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    .termsCondtion ul {
+        padding-left: 20px;
+        line-height: 24px;
+    }
+    .termsCondtion p a{
+        color: #de2584 !important; 
+        text-decoration: none !important;
+    }
+    .termsCondtion ul li a{
+        color: #de2584;
+        text-decoration: none;
+    }
 .bg-lightss {
     background-color: #ffffff !important;
     height: auto;
@@ -455,7 +519,11 @@ p.pinkText {
     position: relative;
     top: -6px;
 }
+.innMain a{
+    text-decoration: none;
+}
 .innMain h3 {
+    color: #000;
     font-size: 18px;
     font-weight: 800;
 }
@@ -536,7 +604,7 @@ p.pinkText {
     background: url(../assets/Town.jpeg);
 }
 .mg3{
-    background: url(../assets/village_varan.jpeg);
+    background: url(../assets/village_varan.jpg);
 }
 .innImgs {
     height: 330px;
@@ -695,6 +763,20 @@ ul.upper {
     list-style: none;
     margin-bottom: 70px;
     text-align: center;
+}
+ul.upper li a{
+    color: #000;
+    text-decoration: none;
+}
+.feedback {
+    margin: 0px 30px;
+    padding: 10px;
+    border-radius: 6px;
+}
+.feedback label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
 }
 ul.upper li {
     display: inline-block;
@@ -1045,10 +1127,13 @@ button.edit-btn img {
     margin-right: 7px;
     margin-top: -3px;
 }
+.f-right{
+    float: right;
+}
 .edit-btn {
     padding: 7px 15px;
     border: none;
-    background: #0a78c752 !important;
+    background: #DFEDF8 !important;
     border-radius: 5px;
     color: #0a78c7;
     font-weight: 700;
@@ -1337,6 +1422,14 @@ p.workName {
 .clrP {
     margin-top: 10px;
     color: #0A78C7;
+}
+.clrP a{
+    text-decoration: none;
+}
+.logVaran input[type="checkbox"] {
+    width: auto;
+    height: auto;
+    margin-right: 6px;
 }
 .upgradeMember{
     margin: 20px 0;
