@@ -2469,3 +2469,81 @@ p.blueLine a {
 .accordionTop .accordion-body {
     padding: 15px;
 }
+.cardRow h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cardRow p span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+}
+.cardRow p {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #0A78C7;
+}
+.chooseCycle {
+    margin: 20px 0px 5px;
+}
+.chooseCycle .col-md-6:hover {
+    padding: 20px;
+    border: 1px solid #0A78C7;
+    border-radius: 10px;
+    background: #0A78C70D;
+}
+.chooseCycle .col-md-6 {
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: transparent;
+}
+.chooseCycle .col-md-6 label span {
+    display: block;
+    font-size: 20px;
+    color: #2C2C2C;
+}
+.chooseCycle .col-md-6 input[type=radio] {
+    width: 20px;
+    height: 20px;
+}
+.cardFooter {
+    margin: 30px 0;
+}
+.cardFooter ul{
+    margin-top: 20px !important;
+   list-style: none;
+   padding: 0px;
+   margin: 0px;
+}
+.cardRow {
+    height: 80vh;
+    box-shadow: 0px 0px 6px #00000014;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.cardFooter ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.monthPay img {
+    width: 66%;
+    margin: auto;
+    display: block;
+}
+.monthPay h4{
+    
+    font-size: 50px;
+    font-weight: 800;
+    color: #0A78C7;
+
+}
+.cardRow .monthPay p{
+    color: #000;
+    font-size: 16px;
+    margin-top: 10px;
+}
