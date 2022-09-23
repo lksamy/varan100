@@ -2547,3 +2547,100 @@ p.blueLine a {
     font-size: 16px;
     margin-top: 10px;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .topLow h2{
+        margin-left: 0px;
+        width: auto;
+    }
+    .logo{
+        text-align: center;
+    }
+    .logo img{
+        margin: auto;
+    }
+    .bannerTop h1 {
+        color: #FFFFFF;
+        font-weight: 800;
+        font-size: 21px;
+    }
+    .bannerTop input,.intl-tel-input{
+        margin-bottom: 10px;
+    }
+    .innChoose h2 {
+        font-size: 32px;
+        font-weight: 900;
+    }
+    .innChoose p br{
+        display: none;
+    }
+    .innChoose p{
+        font-size: 15px;
+    }
+    .wid-15 {
+        min-height: auto;
+        width: 100%;
+    }
+    .wid-26{
+        display: none;
+    }
+    .bg-blue img{
+        position: unset;
+        margin-bottom: 10px;
+    }
+    .inerPlan h3 {
+        text-align: center;
+        font-size: 23px;
+    }
+    .mainDetails{
+        margin-bottom: 10px;
+    }
+    .findDiv{
+        padding: 0px;
+    }
+    .tnTop h4 {
+        font-size: 25px;
+    }
+    .QrCode img {
+        width: 25%;
+        padding: 7px;
+    }
+    .SplitSec {
+        margin: 0px 30px;
+        text-align: center;
+    }
+    .DownSecs .innMain{
+        margin-bottom: 20px;
+    }
+    .topUl ul li a{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .footer{
+        text-align: center;
+    }
+    .Leftfooter,.RightfooterCopy{
+        float: none;
+        margin-bottom: 10px;
+    }
+    .overAllDiv .p-details h4 span{
+        display: block;
+    }
+    .overAllDiv .p-details h4 span img{
+        margin: 0px;
+    }
+    .overAllDiv .p-details p{
+        font-weight: 500;
+    }
+    .pie-chart {
+        padding: 20px 0px;
+    }
+    .p-details{
+        border: none;
+    }
+    .pt-5{
+        padding: auto !important;
+    }
+}
