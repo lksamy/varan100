@@ -14,10 +14,11 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/1.1.1/css/bootstrap-multiselect.css"
     integrity="sha512-Lif7u83tKvHWTPxL0amT2QbJoyvma0s9ubOlHpcodxRxpZo4iIGFw/lDWbPwSjNlnas2PsTrVTTcOoaVfb4kwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/baguetteBox.min.css">
   <link rel="stylesheet" href="css/gallery.css">
+
 </head>
 
 <body>
@@ -101,33 +102,41 @@
             <a href="#familyDetails">Family Details</a>
           </li>
           <li class="ml-auto"> <a href="#" class="nav-link r-share btn-light"> <i
-            class="fa-solid fa-share"></i>Share</a>
+                class="fa-solid fa-share"></i>Share</a>
           </li>
         </ul>
       </div>
     </div>
-    
+
   </section>
   <div class="first-Sec">
-<div class="container">
+    <div class="container">
       <div class="overAllDiv">
-        
+
         <div class="tab-content" id="myTabContent">
           <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
             <section class="s-body">
               <div class="container">
                 <div class="card pr-c">
                   <div class="profile-box">
-                    <div class="p-l-img" style="width: 250px;height: 250px">
+                    <div class="p-l-img">
                       <span class="p-all-img"><i class="fa-solid fa-image"></i><span
                           class="p-all-img-count">8</span></span>
 
 
-                      <button style="    background: transparent;border: none;padding: 0px;"  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <!-- <button style="    background: transparent;border: none;padding: 0px;" type="button"
+                        class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img style="width: 100%;" src="assets/profile.webp" alt="">
-                      </button>
+                      </button> -->
+                      <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8Zml0bmVzc3x8fHx8fDE2NjQyODU0Nzk&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600" />
+                        <img class="v-hidden" src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8Zml0bmVzc3x8fHx8fDE2NjQyODU0Nzk&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600"/>
+                        <img class="v-hidden" src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8Zml0bmVzc3x8fHx8fDE2NjQyODU0Nzk&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600"/>
+                        <img class="v-hidden" src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8Zml0bmVzc3x8fHx8fDE2NjQyODU0Nzk&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600"/>
+                     </div>
                       <!-- Modal -->
-                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
                         <div class="modal-dialog" role="document">
                           <div class="modal-content">
                             <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
@@ -600,7 +609,7 @@
 
             </section>
           </div>
-         
+
         </div>
       </div>
 
@@ -629,10 +638,20 @@
 
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.popup.lightbox.js"></script>
   <script src="js/baguetteBox.min.js"></script>
   <script src="js/script.js"></script>
-  
+
   <script>
+    $(document).ready(function () {
+
+      $(".img-container").popupLightbox({
+        width: 600,
+        height: 450
+      });
+
+
+    });
     baguetteBox.run('.tz-gallery');
   </script>
 </body>
