@@ -2466,6 +2466,9 @@ button.tikBtn {
 p.blueLine a {
     text-decoration: none;
 }
+.topDivRound img {
+    width: 100%;
+}
 .accordionTop .accordion-body {
     padding: 15px;
 }
@@ -2718,6 +2721,9 @@ p.blueLine a {
         left: 0;
         height: 2px;
         background: #f41c7c;
+    }
+    .topDivRound img {
+        width: 100%;
     }
     
 }

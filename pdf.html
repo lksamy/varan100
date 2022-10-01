@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        .sidebarMatch.pad-dif {
+            padding: 15px;
+        }
+
+        .sidebarMatch {
+            background: transparent linear-gradient(97deg, #0A78C7 0%, #F71C7C 100%) 0% 0% no-repeat padding-box;
+            padding: 30px 35px;
+            border-radius: 5px;
+        }
+
+        .col-md-3 {
+            flex: 0 0 auto;
+            width: 25%;
+        }
+
+        .w-100 {
+            width: 100% !important;
+        }
+
+        .col-md-9 {
+            flex: 0 0 auto;
+            width: 75%;
+        }
+
+        .imgDetailsBtm {
+            margin-top: 20px;
+        }
+
+        .imgDetailsBtm ul {
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .imgDetailsBtm ul li {
+            color: #fff;
+            font-size: 14px;
+            line-height: 37px;
+        }
+
+        .imgDetailsBtm h4 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .imgDetailsBtm ul li img {
+            width: 10px;
+            margin-top: -5px;
+            margin-right: 10px;
+        }
+
+        .sidebarMatch.pad-dif {
+            padding: 15px;
+        }
+
+        .pr-0 {
+            padding-right: 0px !important;
+        }
+
+        .pl-0 {
+            padding-left: 0px !important;
+        }
+
+        h4.nameCus {
+            font-size: 40px;
+            font-weight: 800;
+        }
+        .sech {
+            margin-bottom: 20px;
+            margin-right: 50px;
+        }
+        .profileNameDet .sech h5 {
+            font-weight: 800;
+            font-size: 26px;
+            text-transform: uppercase;
+            color: #F71C7C;
+            border-left: 5px solid;
+            padding-left: 15px;
+            border-image-source: linear-gradient(to right, #0A78C7, #F71C7C);
+            border-image-slice: 1;
+        }
+
+        .sech table {
+            width: 60%;
+            line-height: 35px;
+        }
+
+        .sech img {
+            border-radius: 6px;
+        }
+
+        .lastMod {
+            margin-top: 30px;
+        }
+
+        .lastMod h5 {
+            font-weight: 500;
+            color: #fff;
+            margin: 0px;
+        }
+
+        .lastMod p {
+            color: #fff;
+        }
+        .profileNameDet {
+            padding: 20px 25px 0px;
+            background: #fff;
+            border-radius: 0px;
+            box-shadow: 0px 0px 6px #00000014;
+        }
+
+        img.logoBtn {
+            width: 60%;
+        }
+
+        button.bioBtn {
+            background: transparent linear-gradient(97deg, #0A78C7 0%, #F71C7C 100%) 0% 0% no-repeat padding-box;
+            border-radius: 6px;
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            text-align: center;
+            border: none;
+            margin: auto;
+        }
+
+        img.barBtm {
+            width: 70%;
+        }
+
+        .sec-bottom {
+            margin-top: 130px;
+            background: #F71C7C1A;
+            padding: 15px;
+        }
+
+        img.barBtm {
+            width: 20%;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        hr.smWidth {
+            margin: 0px;
+            width: 50px;
+            border-bottom: 3px solid #fff;
+            opacity: 1;
+            border-top: none !important;
+            margin-bottom: 20px;
+        }
+
+        button.decAccept {
+            background: transparent linear-gradient(97deg, #0A78C7 0%, #F71C7C 100%) 0% 0% no-repeat padding-box;
+            border-radius: 6px;
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            text-align: center;
+        }
+
+        button.dec {
+            border: 1px solid #F71C7C;
+            border-radius: 6px;
+            color: #F71C7C;
+            text-decoration: none;
+            padding: 5px 10px;
+            text-align: center;
+        }
+
+        .accordionTop .nav-pills .nav-link {
+            text-align: left;
+            color: #000000;
+            font-weight: 600;
+            line-height: 30px;
+            background: #efefef;
+        }
+        .p-3 {
+            padding: 1rem !important;
+        }
+        .top{
+            padding: 60px;
+        }
+        .row{
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+        .p-relative{
+            position: relative;
+        }
+        img.fourImg {
+            width: 90%;
+            padding: 18px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row top">
+        <div class="col-md-3 pr-0">
+            <div class="sidebarMatch pad-dif">
+                <div class="loginGrad">
+                    <img class="w-100" src="assets/profile.webp" alt="">
+                </div>
+                <div class="imgDetailsBtm">
+                    <h4>PROFILE INFO</h4>
+                    <hr class="smWidth">
+                    <ul>
+                        <li>
+                            <span><img src="assets/black-circle-list.png" alt=""></span>Full Name - Anaya Suganya Suganya
+                        </li>
+                        <li>
+                            <span><img src="assets/black-circle-list.png" alt=""></span>Gender - Female
+                        </li>
+                        <li>
+                            <span><img src="assets/black-circle-list.png" alt=""></span>Marital Status - Unmarried
+                        </li>
+                        <li>
+                            <span><img src="assets/black-circle-list.png" alt=""></span>DOB - 27,07.1990 6:05 AM
+                        </li>
+                    </ul>
+                </div>
+                <div class="imgDetailsBtm">
+                    <h4>CONTACT DETAILS</h4>
+                    <hr class="smWidth">
+                    <ul>
+                        <li>
+                            <span><img src="assets/black-circle-list.png" alt=""></span>Full Name - Anaya Suganya Suganya
+                        </li>
+                        <li>
+                            <span><img src="assets/black-circle-list.png" alt=""></span>Gender - Female
+                        </li>
+                        <li>
+                            <span><img src="assets/black-circle-list.png" alt=""></span>Marital Status - Unmarried
+                        </li>
+                        <li>
+                            <span><img src="assets/black-circle-list.png" alt=""></span>DOB - 27,07.1990 6:05 AM
+                        </li>
+                    </ul>
+                </div>
+                <div class="lastMod">
+                    <h5>Download Mobile App</h5>
+                    <p>Now we are available on</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/app3.png" class="w-100" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/app1.png" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9 pl-0 pr-0 profileNameDet">
+            <div class="rightCol1 p-3">
+                <div class="sech">
+                    <h4 class="nameCus">ANAYA <br>SUGANYA SUGANYA</h4>
+                </div>
+                <div class="sech">
+                    <h5>PROFESSIONAL</h5>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                        professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                        Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+                <div class="sech">
+                    <h5>FAMILY DETAILS</h5>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Father Name</td>
+                                <td><b>: Darsha Raval</b></td>
+                            </tr>
+                            <tr>
+                                <td>Father Occupation</td>
+                                <td><b>: Software Engineering</b></td>
+                            </tr>
+                            <tr>
+                                <td>Mother Name</td>
+                                <td><b>: Darshan Raval</b></td>
+                            </tr>
+                            <tr>
+                                <td>Mother Occupation</td>
+                                <td><b>: Software Engineering</b></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="sech">
+                    <h5>GALLERY</h5>
+                    <div class="row mt-4">
+                        <div class="col-md-3">
+                            <img src="assets/profile.webp" class="fourImg" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="assets/profile.webp" class="fourImg" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="assets/profile.webp" class="fourImg" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="assets/profile.webp" class="fourImg" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+    
+            </div>
+            <div class="sec-bottom p-relative">
+                <div class="sech">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="logoBtn" src="assets/logo.png" alt="">
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <button class="bioBtn">Download Bio</button>
+                        </div>
+                        <div class="col-md-4 text-right">
+                            <img class="barBtm" src="assets/barcode.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
