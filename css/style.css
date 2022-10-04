@@ -1674,6 +1674,38 @@ button.dec{
     line-height: 30px;
     background: #efefef;
 }
+.selectCountry input {
+    border: none;
+    border-radius: inherit;
+    height: auto;
+    overflow: hidden;
+    width: 92% !important;
+    margin: 0px;
+outline: none;
+}
+.selectCountry.login{
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 6px;
+}
+.selectCountry.login select{
+    background-color: #F5F5F5;
+}
+.selectCountry select{
+    height: 100%;
+    border: none;
+    border-radius: 23px;
+    margin-left: 9px;
+    outline: none;
+}
+.selectCountry {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #3333;
+    border-radius: 17px;
+    margin-bottom: 10px;
+}
 .bannerTop{
     background: url(../assets/mg3.png);
     text-align: center;
