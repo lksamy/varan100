@@ -2759,3 +2759,42 @@ p.blueLine a {
     }
     
 }
+
+
+@media only screen and (max-width: 1300px) {
+    .topLow h2 {
+        font-size: 42px;
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .dashBtm .card img {
+        width: 40px;
+    }
+    .rightimg .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 100px;
+    }
+    .cardBox .rightimg ul li{
+        display: inline-block;
+    }
+    .dropdown-content {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100px;
+        z-index: 9;
+    }
+    .nav{
+        display: block !important;
+        text-align: center;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none !important;
+    }
+    .fixed{
+        position: unset !important;
+        width: 100% !important;
+    }
+}
