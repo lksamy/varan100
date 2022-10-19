@@ -2797,4 +2797,69 @@ p.blueLine a {
         position: unset !important;
         width: 100% !important;
     }
+    
+}
+@media only screen and (max-width: 769px) {
+    .desk-none{
+        display: none;
+    }
+    .logoMobile {
+        text-align: center;
+        padding: 15px;
+    }
+    .logoMobile img{
+        width: 50%;
+    }
+    .btn-bottom{
+        position: unset;
+    }
+    .photoPrivacy label {
+        padding: 6px;
+    }
+    .btn-bottom {
+        text-align: center;
+    }
+    .btn-bottom .text-right button{
+        text-align: center !important;
+    }
+    .btn-bottom .text-right{
+        text-align: center !important;
+    }
+    .btn-bottom .text-right .float-right{
+        float: none !important;
+    }
+    .m-right-150{
+        padding: 0px 35px !important;
+    }
+    ul.upper li {
+        margin-right: 0;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .p-50-50{
+        height: auto !important;
+    }
+    hr.step5 {
+        margin: 20px 0px 0px;
+        background: transparent;
+    }
+    .back {
+        text-align: center;
+        position: unset;
+    }
+    .downThree img {
+        padding: 10px;
+        padding-bottom: 0px;
+        margin: auto;
+        width: 35%;
+    }
+    .downThree{
+        padding-bottom: 20px;
+    }
+    ul.upper {
+        margin-bottom: 30px;
+    }
+    .select_box{
+        margin-bottom: 10px;
+    }
 }
