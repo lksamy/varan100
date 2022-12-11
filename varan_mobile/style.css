@@ -1,0 +1,250 @@
+.topClr {
+    color: #fff;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+.topClr ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+.topClr ul li{
+    display: inline-block;
+    text-align: center;
+}
+.topClr ul li img {
+    width: 40px;
+    margin-left: 12px;
+    background: #ffffff45;
+    text-align: center;
+    padding: 4px;
+    border-radius: 34px;
+}
+.dash {
+    background: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+body{
+    background: linear-gradient(to right, #0A78C7,#F71C7C);
+    margin: 0px;
+    overflow-x: hidden;
+    width: 100%;
+    margin-bottom: 100px !important;
+}
+.logo img {
+    width: 100%;
+}
+.topClr ul li img {
+    width: 40px;
+    margin-left: 12px;
+}
+.topImgBr {
+    border: 4px solid;
+    border-radius: 25px !important;
+    border-image-source: linear-gradient(to right, #0A78C7,#F71C7C);
+    border-image-slice: 1;
+    overflow: hidden;
+    padding: 15px;
+    background: linear-gradient(to right, #0a78c738,#f71c7c45);
+}
+.toptopImg {
+    border-radius: 10px !important;
+    overflow: hidden;
+    text-align: left;
+}
+.topImgBr img {
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(to right, #0A78C7,#F71C7C);
+    padding: 10px 7px 0px;
+    border-radius: 15px;
+}
+p.profileName {
+    margin: 0px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 800;
+}
+p.workName {
+    color: #676767;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+.chartProf p {
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+.dashBtm .card {
+    border-radius: 20px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: linear-gradient(to right, #0a78c738,#f71c7c45);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    padding: 5px 15px;
+}
+.dashBtm .col-4,.matchesDash .inCol .col-4 {
+    width: 270px;
+}
+.dashBtm .row {
+    align-items: center;
+    margin: 0px;
+}
+.dashBtm {
+    width: 100%;
+    background-color: #fff;
+    overflow: scroll;
+}
+.btmDash{
+    width: 815px;
+}
+p.dashDw span {
+    font-size: 25px;
+    margin-right: 7px;
+    font-weight: 600;
+    color: #0A78C7;
+}
+p.dashP, p.dashDw {
+    color: #333;
+    font-weight: 600;
+    margin: 0px;
+}
+.matchesDash h3 {
+    font-size: 23px;
+    font-weight: 700;
+}
+.matchesDash{
+    background-color: #fff;
+}
+.matchesDash a {
+    color: #0A78C7;
+    text-decoration: none;
+    font-weight: 600;
+}
+.innTopBr img {
+    width: 100%;
+    border: 7px solid #fff;
+    border-radius: 10px;
+}
+.innTopBr p.profileName {
+    margin: 0px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 15px 0px 0px;
+}
+.innTopBr hr {
+    margin: 9px 0px;
+    border-top: 2px solid #3333;
+    width: 20px;
+    background: #3333;
+    opacity: 1;
+}
+.indetails {
+    margin-bottom: 10px;
+}
+.indetails p {
+    color: #fff;
+    margin: 0px;
+    line-height: 29px;
+    font-weight: 200;
+}
+.innTopBr {
+    background: linear-gradient(to right, #0A78C7,#F71C7C);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.btmCashTop{
+    overflow-x: auto;
+}
+.nobag .innTopBr {
+    background: transparent;
+    color: #333;
+    padding: 0px;
+}
+.nobag .innTopBr p.profileName,.nobag .indetails p{
+    color: #212529;
+}
+.nobagDif .innTopBr {
+    background: #dbf1f1;
+    padding: 15px;
+}
+.innTopBr li img {
+    padding: 0px;
+    border: 4px solid #fff;
+    list-style: none;
+    width: 45px;
+}
+.innTopBr ul li{
+    display: inline-block;
+}
+.innTopBr ul {
+    padding: 0px;
+    list-style: none;
+}
+.card img {
+    width: 34px;
+    background: #fbf3f3b3;
+    padding: 5px;
+    border-radius: 15px;
+}
+.bottonNav {
+    background: #fff;
+    padding:15px 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: -1px -1px 5px #3333;
+}
+.bottonNav ul li{
+    display: inline-block;
+    width: 24%;
+}
+.bottonNav ul{
+    margin: 0px;
+    padding: 0px;
+}
+.bottonNav ul li img {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 32px;
+    height: 29px;
+}
+.bottonNav ul li a{
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+}
+.bottonNav ul li a.active {
+    color: #dc3545;
+}
+.bottonNav ul li a.active::before {
+    display: inline-block;
+    content: "";
+    border-top: 0.4rem solid #dc3545;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    left: -47px;
+    top: 1px;
+}
