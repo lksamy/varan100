@@ -402,3 +402,17 @@ input[type="search"] {
     background: linear-gradient(to right, #0A78C7,#F71C7C) !important;
     color: #fff;
 }
+button.filter {
+    position: fixed;
+    bottom: 96px;
+    right: 15px;
+    background: #d3d3d3b5;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 40px;
+}
+.filter img{  
+    width: 19px;
+    margin-top: -5px;
+    margin-right: 11px;
+}
