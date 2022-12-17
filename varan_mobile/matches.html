@@ -1,49 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
     <div class="bottonNav">
         <ul>
             <li><a href="dashboard.html">
-                <img src="dashbaord.png" alt="">
-                Dashboard
-            </a></li>
+                    <img src="dashbaord.png" alt="">
+                    Dashboard
+                </a></li>
             <li><a href="matches.html" class="active">
-                <img src="match.png" alt="">
-                Matches
-            </a></li>
+                    <img src="match.png" alt="">
+                    Matches
+                </a></li>
             <li><a href="#">
-                <img src="request.png" alt="">
-                Request
-            </a></li>
+                    <img src="request.png" alt="">
+                    Request
+                </a></li>
             <li><a href="#">
-                <img src="more.png" alt="">
-                More
-            </a></li>
+                    <img src="more.png" alt="">
+                    More
+                </a></li>
         </ul>
     </div>
     <div class="topClr">
         <div class="row">
-          <div class="col-6">
-            <div class="logo">
-                <img src="varan100_white.png" alt="">
+            <div class="col-3">
+                <div class="matches">
+                    <h3>Maches</h3>
+                </div>
             </div>
-          </div>
-          <div class="col-6 text-right">
+            <div class="col-5">
+                <input type="search" placeholder="Who ?">
+            </div>
+            <div class="col-4 text-right">
                 <ul>
                     <li><a href="#"><img src="united-states.png" alt=""></a></li>
                     <li><a href="#"><img src="bell.png" alt=""></a></li>
                 </ul>
-          </div>
+            </div>
         </div>
-      </div>
-    
+    </div>
+    <div class="tabsTop">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                    role="tab" aria-controls="home" aria-selected="true">Daily Recommendations</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                    role="tab" aria-controls="profile" aria-selected="false">Desired Partner</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+                    role="tab" aria-controls="contact" aria-selected="false">Just</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="btmTab">
+                    <h3>250 Match With You</h3>
+                    <p>Based on history of your preference <a href="#"><span><img src="pencil.png" alt="">Change</span></a></p>
+                </div>
+                <div class="cardBox mb-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="leftImg p-relative">
+                                        <img src="profile.webp" alt="" srcset="">
+                                        <span class="p-all-img"><i class="fa-solid fa-image"></i><span
+                                                class="p-all-img-count">8</span></span>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="content-top">
+                                        <div class="p-r-c">
+                                            <div class="row">
+                                                <div class="col-10">
+                                                    <h3><a href="#">sathya seelan</a><img src="verify.png"></h3>
+                                                </div>
+                                                <div class="col-2 text-right">
+                                                    <a href="#" class=""><img class="dotss" src="dots.png" alt=""></a>
+                                                </div>
+                                                <div class="col-12">
+                                                    <p class="online"><span><img src="security.png"></span>Profile Verified</p>
+                                                </div>
+                                            </div>
+
+                                            <h4>Studied at bxshsbds University</h4>
+                                            <h4>Works at bxshsbds University</h4>
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>26 Years, 5.2"</td>
+                                                        <td>B.E B.tech</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-8 GreenClr">
+                                    <p class="online"><span><img src="black-circle.png"></span>Online - Chat now
+                                    </p>
+                                </div>
+                                <div class="col-4 blueClr">
+                                    <p class=""><a class="edit-btn" href="#">
+                                            view Bio Data</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="cardBox mb-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="leftImg p-relative">
+                                        <img src="profile.webp" alt="" srcset="">
+                                        <span class="p-all-img"><i class="fa-solid fa-image"></i><span
+                                                class="p-all-img-count">8</span></span>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="content-top">
+                                        <div class="p-r-c">
+                                            <div class="row">
+                                                <div class="col-10">
+                                                    <h3><a href="#">sathya seelan</a><img src="verify.png"></h3>
+                                                </div>
+                                                <div class="col-2 text-right">
+                                                    <a href="#" class=""><img class="dotss" src="dots.png" alt=""></a>
+                                                </div>
+                                                <div class="col-12">
+                                                    <p class="online"><span><img src="security.png"></span>Profile Verified</p>
+                                                </div>
+                                            </div>
+
+                                            <h4>Studied at bxshsbds University</h4>
+                                            <h4>Works at bxshsbds University</h4>
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>26 Years, 5.2"</td>
+                                                        <td>B.E B.tech</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-8 GreenClr">
+                                    <p class="online"><span><img src="black-circle.png"></span>Online - Chat now
+                                    </p>
+                                </div>
+                                <div class="col-4 blueClr">
+                                    <p class=""><a class="edit-btn" href="#">
+                                            view Bio Data</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="cardBox mb-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="leftImg p-relative">
+                                        <img src="profile.webp" alt="" srcset="">
+                                        <span class="p-all-img"><i class="fa-solid fa-image"></i><span
+                                                class="p-all-img-count">8</span></span>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="content-top">
+                                        <div class="p-r-c">
+                                            <div class="row">
+                                                <div class="col-10">
+                                                    <h3><a href="#">sathya seelan</a><img src="verify.png"></h3>
+                                                </div>
+                                                <div class="col-2 text-right">
+                                                    <a href="#" class=""><img class="dotss" src="dots.png" alt=""></a>
+                                                </div>
+                                                <div class="col-12">
+                                                    <p class="online"><span><img src="security.png"></span>Profile Verified</p>
+                                                </div>
+                                            </div>
+
+                                            <h4>Studied at bxshsbds University</h4>
+                                            <h4>Works at bxshsbds University</h4>
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>26 Years, 5.2"</td>
+                                                        <td>B.E B.tech</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-8 GreenClr">
+                                    <p class="online"><span><img src="black-circle.png"></span>Online - Chat now
+                                    </p>
+                                </div>
+                                <div class="col-4 blueClr">
+                                    <p class=""><a class="edit-btn" href="#">
+                                            view Bio Data</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">2</div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">3</div>
+        </div>
+    </div>
+    <button class="filter"><span><img src="filter.png" alt=""></span>Filter</button>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
