@@ -115,7 +115,7 @@
                             </div>
                             <div class="row mt-2">
                                 <div class="col-8 GreenClr">
-                                    <p class="online"><span><img src="black-circle.png"></span>Online - Chat now
+                                    <p class="online"><span><img src="green-circle.png"></span>Online - Chat now
                                     </p>
                                 </div>
                                 <div class="col-4 blueClr">
@@ -171,7 +171,7 @@
                             </div>
                             <div class="row mt-2">
                                 <div class="col-8 GreenClr">
-                                    <p class="online"><span><img src="black-circle.png"></span>Online - Chat now
+                                    <p class="online"><span><img src="green-circle.png"></span>Online - Chat now
                                     </p>
                                 </div>
                                 <div class="col-4 blueClr">
@@ -227,7 +227,7 @@
                             </div>
                             <div class="row mt-2">
                                 <div class="col-8 GreenClr">
-                                    <p class="online"><span><img src="black-circle.png"></span>Online - Chat now
+                                    <p class="online"><span><img src="green-circle.png"></span>Online - Chat now
                                     </p>
                                 </div>
                                 <div class="col-4 blueClr">
@@ -245,7 +245,101 @@
             <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">3</div>
         </div>
     </div>
-    <button class="filter"><span><img src="filter.png" alt=""></span>Filter</button>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="filter"><span><img src="filter.png" alt=""></span>Filter</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form  class="popMdl" action="">
+        <div class="modal-header">
+        <button type="button" class="btn-close m-0" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h5 class="modal-title" id="exampleModalLabel">Filters</h5>
+            <button type="reset" class="resetAll" >Reset All</button>
+        </div>
+        <div class="modal-body">
+          
+            <div class="row">
+                <div class="col-6">
+                    <label>Min. Age</label>
+                    <select name="" id="">
+                        <option value="">23 years</option>
+                        <option value="">20 years</option>
+                        <option value="">24 years</option>
+                        <option value="">25 years</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <label>Max. Age</label>
+                    <select name="" id="">
+                        <option value="">23 years</option>
+                        <option value="">20 years</option>
+                        <option value="">24 years</option>
+                        <option value="">25 years</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <label>Min. Height</label>
+                    <select name="" id="">
+                        <option value="">5' 0'</option>
+                        <option value="">5' 0'</option>
+                        <option value="">5' 0'</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <label>Max. Height</label>
+                    <select name="" id="">
+                        <option value="">5' 0'</option>
+                        <option value="">5' 0'</option>
+                        <option value="">5' 0'</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label>Religion</label>
+                    <select name="" id="">
+                        <option value="">Hindu</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label>Caste</label>
+                    <select name="" id="">
+                        <option value="">Hindu</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label>Mother Tongue</label>
+                    <select name="" id="">
+                        <option value="">Hindu</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <label>Min. Income</label>
+                    <select name="" id="">
+                        <option value="">Hindu</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <label>Max Income</label>
+                    <select name="" id="">
+                        <option value="">Hindu</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label>Country</label>
+                    <select name="" id="">
+                        <option value="">Hindu</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary showBtn">Show Result</button>
+        </div>
+          </form>
+
+      </div>
+    </div>
+  </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
