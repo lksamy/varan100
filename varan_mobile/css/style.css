@@ -442,3 +442,116 @@ form.popMdl select {
     border: none;
     color: #0A78C7;
 }
+.profileIn img{
+    width: 20px;
+}
+.matches.profileIn span {
+    float: left;
+    margin-right: 10px;
+}
+.topClrnone {
+    background: linear-gradient(193deg, rgba(223,228,240,1) 0%, rgba(223,210,227,1) 35%, rgba(152,184,229,1) 100%);
+    padding: 30px 10px 7px;
+}
+.banner{
+    background: linear-gradient(to right, #0A78C7,#F71C7C);
+    padding: 15px 0;
+    height: 100px;
+}
+.profile-box {
+    display: flex;
+    gap: 15px;
+    position: relative;
+}
+.profile-box .p-l-img {
+    border-radius: 20px;
+}
+
+.profile-box .p-l-img {
+    max-width: 40%;
+}
+.img-container img{
+    width: 145px !important;
+}
+.p-l-img {
+    position: relative;
+}
+.banner + .topBarBan .card.pr-c {
+    margin: 10px;
+    background: #fff;
+    margin-top: -55px;
+}
+.banner + .topBarBan .card.pr-c .p-r-c h3 {
+    font-size: 20px;
+}
+.banner + .topBarBan .card.pr-c .p-r-c img {
+    padding: 0px;
+    width: 18px;
+    margin-top: -4px;
+    margin-right: 6px;
+}
+button.lightBlue {
+    border: none;
+    background: #bfd9ff;
+    border-radius: 20px;
+    padding: 4px 10px;
+}
+button.lightBlue {
+    border: none;
+    background: #bfd9ff;
+    border-radius: 7px;
+    padding: 4px 6px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    float: right;
+    margin-top: 10px;
+}
+.pr-0{
+    padding-right: 0px !important;
+}
+.pro-bar .progress-bar {
+    background-color: #1C9100;
+}
+.pro-bar .progress {
+    min-width: 100%;
+    float: left;
+}
+
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+.pro-bar p {
+    margin: 7px 5px;
+}
+.information {
+    padding: 0px 10px;
+}
+.information h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.information p {
+    font-size: 14px;
+}
+.information td.lightClr {
+    color: #939393;
+}
+.information td{
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+}
+.information td:last-child {
+    padding-left: 50px;
+}
+.cardTable {
+    background: #fff;
+    padding: 5px;
+    box-shadow: 0px 0px 2px #747272;
+}
