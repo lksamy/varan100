@@ -690,6 +690,11 @@ p.pinkText {
     background: linear-gradient(to right, #0A78C7,#F71C7C);
     padding: 15px 0;
 }
+.footer.fixedFooter{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
 .footerCopy p {
     margin-bottom: 0px;
     color: #ffffffc4;
@@ -1148,6 +1153,7 @@ button.edit-btn img {
 .p-r-c h3 a {
     text-decoration: none;
     color: #000000;
+    font-size: 20px;
 }
 .edit-btn:hover {
     background: linear-gradient(to right, #0A78C7,#F71C7C) !important;
@@ -1255,9 +1261,16 @@ div#flush-collapseSix form .col-md-9{
 }
 .leftImg.p-relative {
     text-align: center;
-    padding: 10px;
-    background: #a4a094;
+    padding: 5px;
+    background: linear-gradient(to right, #0A78C7,#F71C7C);
     border-radius: 17px;
+}
+.leftImg.p-relative img.w-75 {
+    width: 100% !important;
+    border-radius: 17px;
+}
+#accordionFlushExample .accordion-collapse span {
+    height: 40px !important;
 }
 .cardBox {
     background: #fff;
@@ -2222,7 +2235,7 @@ a.dropdown-item.lastSignOut {
 .fixed {
     top: 0;
     position: fixed;
-    width: 20%;
+    width: 19%;
 
   }
   .radBTn {
