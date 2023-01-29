@@ -1585,8 +1585,11 @@ h4.nameCus {
     border-image-slice: 1;
 }
 .sech table {
-    width: 60%;
+    width: 100%;
     line-height: 35px;
+}
+.sech tr td:first-child {
+    width: 40%;
 }
 .sech img {
     border-radius: 6px;
