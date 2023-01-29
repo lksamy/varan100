@@ -593,3 +593,27 @@ button.dec {
     text-decoration: none;
     color: #fff;
 }
+td.lightweClr {
+    padding: 0px 0px !important;
+    margin-top: 11px !important;
+    float: right !important;
+}
+.information table.mb-3.rightBtn {
+    margin-right: 0px !important;
+    margin: auto;
+}
+.topClrnone.pt-2 .matches a {
+    width: 100px;
+    background: linear-gradient(to right, #0A78C7,#F71C7C);
+    color: #fff;
+    padding: 4px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 6px;
+}
+.information.tableStyle table.mb-3 tr td:first-child {
+    width: 35%;
+}
+.information.tableStyle table {
+    width: 100%;
+}
