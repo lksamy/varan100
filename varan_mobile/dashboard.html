@@ -39,7 +39,7 @@
           <div class="col-6 text-right">
                 <ul>
                     <li><a href="#"><img src="united-states.png" alt=""></a></li>
-                    <li><a href="#"><img src="bell.png" alt=""></a></li>
+                    <li><button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="notify"><span><img src="bell.png" alt=""></span></button></li>
                 </ul>
           </div>
         </div>
@@ -279,5 +279,47 @@
         
         
     </div>
+
+
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form  class="popMdl" action="">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Notification</h5>
+        <button type="button" class="btn-close m-0" data-bs-dismiss="modal" aria-label="Close"></button>
+
+        </div>
+        <div class="modal-body">
+            <ul class="dropdownMenu"><li class="mb-3 brBtm">
+                <div class="row m-0">
+                  <div class="col-4">
+                    <div class="notifyImg">
+                      <img src="https://www.varan100.com/storage/uploads/63cd14849170c.png">
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="centerSec">
+                      <h3>Vijay</h3>
+                      <p class="daysFind">6 days ago</p>
+                      <p>Interested in ur profile.</p>
+                      <a href="https://www.varan100.com/profile/detail/V1915ZK9">View Profile</a>
+                    </div>
+                  </div>
+                </div>
+              </li></ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary showBtn">See All</button>
+        </div>
+          </form>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
