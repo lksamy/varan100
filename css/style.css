@@ -2901,7 +2901,7 @@ background: linear-gradient(to right, #0A78C7,#F71C7C) !important;
         padding: 10px;
         padding-bottom: 0px;
         margin: auto;
-        width: 35%;
+        width: 75%;
     }
     .downThree{
         padding-bottom: 20px;
@@ -2911,6 +2911,9 @@ background: linear-gradient(to right, #0A78C7,#F71C7C) !important;
     }
     .select_box{
         margin-bottom: 10px;
+    }
+    .downThree.m-right-150 {
+        padding:20px 0px !important;
     }
 }
 li.dropdown.notificationPop .dropdown-menu li:last-child a {
