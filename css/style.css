@@ -2013,6 +2013,9 @@ button.bgGrad {
     background: linear-gradient(to right, #0A78C7,#F71C7C) !important;
     color: #fff;
 }
+.img-container img {
+    width: 100% !important;
+}
 
 
 

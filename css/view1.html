@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
         <style>
+            .logo img {
+    width: 40%;
+}
+            body{
+                font-family: sans-serif;
+            }
             .bodyView {
                 background-color: #f71c7c12;
-                padding: 20px 30px 100px;
+                padding: 20px 30px;
                 text-align: center;
             }
             .inBody p {
@@ -30,8 +29,8 @@
                 width: 30%;
             }
             .inBody{
+                padding: 30px 0;
                 position: relative;
-                margin-top: -100px;
                 border-radius: 15px;
             }
             .footerContent {
@@ -42,6 +41,47 @@
                 margin: 0px;
                 font-size: 15px;
                 line-height: 30px;
+            }
+            .w-150{
+                width: 30%;
+                margin: auto;
+                align-items: center;
+            }
+            .w-150 a {
+                width: 140px;
+                display: block;
+                text-align: center;
+                padding: 6px 5px;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 7px;
+                    background: linear-gradient(to right, #0A78C7,#F71C7C) !important;
+            }
+            .w-150 .outline {
+                    color: #333;
+                    border: 1px solid #f71c7c;
+                    background: transparent !important;
+                }
+            .row{
+                margin: 0px -15px;
+                display: flex;
+                margin: auto;
+            }
+            .col-6 {
+                    margin: 9px 5px;
+                }
+            .col-md-6{
+                width: 50%;
+            }
+            .text-right{
+                text-align: right;
+            }
+            .container{
+                width: 80%;
+                margin: auto;
+            }
+            .imgCenter{
+                text-align: center;
             }
         </style> 
 </head>
@@ -81,6 +121,16 @@
                 <p>Didugal, Tamilnadu</p>
                 <p>Education : MCA</p>
             </address>
+            <div class="row w-150">
+                <div class="col-6">
+                  <div class="forget m-0">
+                    <a class="outline" href="#">Declain</a>
+                  </div>
+                </div>
+                <div class="col-6 text-right">
+                  <a href="#" class="linearClr">Accept</a>
+                </div>
+              </div>
         </div>
     </div>
     <div class="footerContent">
