@@ -628,10 +628,10 @@ td.lightweClr {
     padding: 15px 20px;
     float: left;
     margin-bottom: 10px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
     margin-top: 5px;
-    width: 47% !important;
+    width: 48% !important;
     color: #333;
 }
 .editfield button.edit-btn {
